@@ -28,6 +28,11 @@
 		DFC16324186EBF7D0030511F /* HomeWorkToHandIn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HomeWorkToHandIn; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC16327186EBF7D0030511F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DFC16329186EBF7D0030511F /* HomeWorkToHandIn.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HomeWorkToHandIn.1; sourceTree = "<group>"; };
+		DFC16330186EBF9A0030511F /* LinkedQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedQueue.h; sourceTree = "<group>"; };
+		DFC16331186EBFB10030511F /* SeqStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SeqStack.h; path = ../SeqStack.h; sourceTree = "<group>"; };
+		DFC16332186EBFB10030511F /* CheckingPalindroming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CheckingPalindroming.h; path = ../CheckingPalindroming.h; sourceTree = "<group>"; };
+		DFC16333186EBFCD0030511F /* OneWayLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneWayLinkedList.h; sourceTree = "<group>"; };
+		DFC16334186EBFCD0030511F /* ListConversing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListConversing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,11 @@
 			children = (
 				DFC16327186EBF7D0030511F /* main.c */,
 				DFC16329186EBF7D0030511F /* HomeWorkToHandIn.1 */,
+				DFC16330186EBF9A0030511F /* LinkedQueue.h */,
+				DFC16331186EBFB10030511F /* SeqStack.h */,
+				DFC16332186EBFB10030511F /* CheckingPalindroming.h */,
+				DFC16333186EBFCD0030511F /* OneWayLinkedList.h */,
+				DFC16334186EBFCD0030511F /* ListConversing.h */,
 			);
 			path = HomeWorkToHandIn;
 			sourceTree = "<group>";
