@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF02CDD318707C91005895EB /* ExamplePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExamplePic.png; sourceTree = "<group>"; };
 		DFC16324186EBF7D0030511F /* HomeWorkToHandIn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HomeWorkToHandIn; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC16327186EBF7D0030511F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DFC16329186EBF7D0030511F /* HomeWorkToHandIn.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HomeWorkToHandIn.1; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 			children = (
 				DFC16326186EBF7D0030511F /* HomeWorkToHandIn */,
 				DFC16325186EBF7D0030511F /* Products */,
+				DF02CDD318707C91005895EB /* ExamplePic.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +237,7 @@
 				DFC1632F186EBF7D0030511F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

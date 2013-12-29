@@ -20,8 +20,7 @@ int main(int argc, const char * argv[])
     LNode* head = initOneWayListWithLength(8);
     LNode* headReversed;
     
-    printf("游老师您好，本程序在Mac OS X 10.9 Xcode下（利用GCC编译器）可以标准C程序成功运行，但由于平台不同不方便生成.exe文件敬请谅解");
-    
+printf("游老师您好，本程序在Mac OS X 10.9 Xcode下（利用GCC编译器）可以标准C程序成功运行，但由于平台不同不方便生成.exe文件敬请谅解,全部工程文件敬请移步\nhttps://github.com/s773364/HomeWorkToHandIn\n\n");
     printf("The created linked list data is:（Please refer to my homework for more detail）\n");
     
     LinkListPrint(head);
@@ -50,7 +49,7 @@ int main(int argc, const char * argv[])
     checkingPalindroming(str3);
     
     printf("\n\nPlease refer to my homework for more detail\n\n\n");
-    printf("游老师您好，本程序在Mac OS X 10.9 Xcode下（利用GCC编译器）可以标准C程序成功运行，但由于平台不同不方便生成.exe文件敬请谅解\n\n");
+    printf("游老师您好，本程序在Mac OS X 10.9 Xcode下（利用GCC编译器）可以标准C程序成功运行，但由于平台不同不方便生成.exe文件敬请谅解,全部工程文件敬请移步\nhttps://github.com/s773364/HomeWorkToHandIn\n\n");
     return 0;
 }
 
