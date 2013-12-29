@@ -8,9 +8,8 @@
 
 #ifndef stackAccordingToTextBook_SeqStack_h
 #define stackAccordingToTextBook_SeqStack_h
-
-
 #endif
+
 
 #define MAX_STACK_SIZE 100
 
@@ -68,7 +67,7 @@ int seqStackPop(SeqStack *s, dataType *d)
     }
 }
 
-int seqStackTop(SeqStack s, dataType *d)
+int seqStackTop(SeqStack s, dataType *d)//本程序未使用此函数
 {
     if (s.top <= 0)
     {

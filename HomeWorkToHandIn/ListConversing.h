@@ -9,16 +9,11 @@
 #ifndef listConversingAccordingToWeb_ListConversing_h
 #define listConversingAccordingToWeb_ListConversing_h
 #endif
+
 #define ITEM_NUM 10
 #include "OneWayLinkedList.h"
 
-
-
-void LinkList_destroy(LNode* head);
-void LinkList_print(LNode* head);
-LNode* LinkList_reverse(LNode* head);
-
-void LinkList_destroy(LNode* head)
+void LinkListestroy(LNode* head)//本程序未使用此函数
 {
     printf("Destroy the link list...\n");
     if(head)
@@ -27,7 +22,7 @@ void LinkList_destroy(LNode* head)
     }
 }
 
-void LinkList_print(LNode* head)
+void LinkListPrint(LNode* head)
 {
     if(head == NULL) return;
     
@@ -38,15 +33,22 @@ void LinkList_print(LNode* head)
     }
 }
 
-LNode* LinkList_reverse(LNode* head)
+LNode* LinkListReverse(LNode* head)
 {
     LNode *preNode,*curNode,*nextNode;
     
-    if(head == NULL) return NULL;//空链表
+    if(head == NULL)
+    {
+        return NULL;//空链表
+    }
     
-    if(head->next == NULL) return head;//仅一个元素
+    if(head->next == NULL)
+    {
+        return head;//仅一个元素
+    }
     
-    curNode = head;preNode=NULL;//初始化
+    curNode = head;
+    preNode=NULL;//初始化
     
     while(curNode)
     {

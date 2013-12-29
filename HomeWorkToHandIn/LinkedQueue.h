@@ -5,13 +5,11 @@
 //  Created by 孙培峰 on 1312/16/.
 //  Copyright (c) 2013 孙培峰. All rights reserved.
 //
-
 #ifndef queueArrordingToTextBook_LinkedQueue_h
 #define queueArrordingToTextBook_LinkedQueue_h
 #endif
 
 #include "SeqStack.h"
-
 
 typedef struct queueNode{
     struct LNode *front;
@@ -80,7 +78,7 @@ int queueDelete(queueNode *q, dataType *d)
     }
 }
 
-int queueGetFirstElement(queueNode q, dataType *d)
+int queueGetFirstElement(queueNode q, dataType *d)//本程序未使用此函数
 {
     if (q.front == NULL)
     {
@@ -94,7 +92,7 @@ int queueGetFirstElement(queueNode q, dataType *d)
     }
 }
 
-void destroy(queueNode q)
+void destroy(queueNode q)//本程序未使用此函数
 {
     LNode *p, *p1;
     p = q.front;

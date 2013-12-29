@@ -13,7 +13,6 @@
 #include <string.h>
 #include "LinkedQueue.h"
 
-
 void checkingPalindroming(char str[])
 {
     SeqStack mystack;
@@ -43,13 +42,14 @@ void checkingPalindroming(char str[])
     
     if (isQueueNotEmpty(myqueue) || isSeqStackNotEmpty(mystack))
     {
-        printf("Not HuiWen\n\n");
+        printf("Not HuiWen\n");
     }
     else
     {
-        printf("It's HuiWen\n\n");
+        printf("It's HuiWen\n");
     }
     
+    printf("\n");
 }
 
 

@@ -8,17 +8,14 @@
 
 #ifndef DataStructureTest1_OneWayLinkedList_h
 #define DataStructureTest1_OneWayLinkedList_h
-
-
-
 #endif
+
 typedef struct LNode{
     int data;
     struct LNode *next;
 }LNode, *OneWaylinkList;//LNode只是对此类的代称,linkList才是可方便地用做程序中的
 
 long timesPrintfCalled;
-
 
 OneWaylinkList initOneWayListWithLength(int lengthOfTheCreatingList)
 {
@@ -63,7 +60,7 @@ OneWaylinkList initOneWayListWithLength(int lengthOfTheCreatingList)
     free(list);
 }
 
-void printLinkedList(OneWaylinkList listToBePrinted)
+void printLinkedList(OneWaylinkList listToBePrinted)//本程序未使用此函数
 {
     OneWaylinkList p = NULL;
     

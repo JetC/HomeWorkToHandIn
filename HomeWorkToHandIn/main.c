@@ -13,21 +13,30 @@
 
 int main(int argc, const char * argv[])
 {
-    void checkingPalindroming(char str[]);
+    /**
+     *  以下开始逆置链表
+     */
 
     LNode* head = initOneWayListWithLength(8);
-    LNode* head_reversed;
+    LNode* headReversed;
     
     printf("The link list data is:\n");
     
-    LinkList_print(head);
+    LinkListPrint(head);
     
-    head_reversed = LinkList_reverse(head);
-    
+    headReversed = LinkListReverse(head);
+
+    printf("\n");
     printf("After reversed,the link list data is:\n");
+    LinkListPrint(headReversed);
+    printf("\n");
+
     
-    LinkList_print(head_reversed);
-    
+    /**
+     *  以下开始检验回文
+     */
+    void checkingPalindroming(char str[]);
+
     char str1[] = "ABCDEDCBA";
     char str2[] = "ssaa";
     char str3[] = "ssdaa";

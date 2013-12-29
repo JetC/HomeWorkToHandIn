@@ -66,12 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				DFC16327186EBF7D0030511F /* main.c */,
-				DFC16329186EBF7D0030511F /* HomeWorkToHandIn.1 */,
-				DFC16330186EBF9A0030511F /* LinkedQueue.h */,
 				DFC16331186EBFB10030511F /* SeqStack.h */,
-				DFC16332186EBFB10030511F /* CheckingPalindroming.h */,
 				DFC16333186EBFCD0030511F /* OneWayLinkedList.h */,
 				DFC16334186EBFCD0030511F /* ListConversing.h */,
+				DFC16330186EBF9A0030511F /* LinkedQueue.h */,
+				DFC16332186EBFB10030511F /* CheckingPalindroming.h */,
+				DFC16329186EBF7D0030511F /* HomeWorkToHandIn.1 */,
 			);
 			path = HomeWorkToHandIn;
 			sourceTree = "<group>";
